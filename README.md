@@ -10,5 +10,9 @@ cd server
 
 npm run start-dev
 
+## Issues
+
+problems connecting to MySQL DB
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
