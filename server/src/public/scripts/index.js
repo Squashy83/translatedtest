@@ -6,7 +6,7 @@ displayOrders();
 
 
 function displayOrders(event) {
-    var ordertype = e.currentTarget.value;
+    var ordertype = event.currentTarget.value;
     httpGet('/api/orders/all?orderby='+ordertype)
         .then(response => response.json())
         .then((response) => {
