@@ -1,0 +1,33 @@
+body {
+  padding: 100px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+body .orders-column {
+  display: inline-block;
+  margin-right: 2em;
+  vertical-align: top;
+}
+
+body .orders-column .column-header {
+  padding-bottom: 5px;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+body .add-order-col input {
+  margin-bottom: 10px;
+}
+
+body .orders-column .order-display-ele {
+  padding-bottom: 10px;
+}
+
+body .orders-column .order-display-ele button {
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+
+body .orders-column .order-display-ele .edit-view {
+  display: none;
+}
