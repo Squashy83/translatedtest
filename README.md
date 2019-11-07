@@ -1,0 +1,2 @@
+# translatedtest
+a simple test
