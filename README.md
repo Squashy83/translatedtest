@@ -8,6 +8,8 @@ docker-compose up -d
 
 cd server
 
+npm install
+
 npm run start-dev
 
 ## Issues
